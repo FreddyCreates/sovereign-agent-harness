@@ -1,0 +1,2 @@
+[console_scripts]
+sovereign-harness = sovereign_harness.cli:main

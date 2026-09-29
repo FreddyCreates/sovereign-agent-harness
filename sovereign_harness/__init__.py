@@ -1,0 +1,39 @@
+"""
+Sovereign Agent Harness Package Initialization.
+"""
+
+from sovereign_harness.harness import SovereignAgentHarness
+from sovereign_harness.vault import SovereignVault
+from sovereign_harness.loom import LoomMemoriaEngine
+from sovereign_harness.swarm import SQPLSwarmRouter
+from sovereign_harness.tools import ToolRegistry
+from sovereign_harness.guardrails import SecurityGuardrail
+from sovereign_harness.runtime import (
+    NanoAgentManager,
+    ThreadNanoAgent,
+    ProcessNanoAgent,
+    ExecutionMode,
+    AgentCheckpointManager,
+    SwarmMeshNetwork,
+    TensorWormholeBridge
+)
+from sovereign_harness.sdk import AsyncSovereignClient, SovereignSDK
+
+__version__ = "1.0.0"
+__all__ = [
+    "SovereignAgentHarness",
+    "SovereignVault",
+    "LoomMemoriaEngine",
+    "SQPLSwarmRouter",
+    "ToolRegistry",
+    "SecurityGuardrail",
+    "NanoAgentManager",
+    "ThreadNanoAgent",
+    "ProcessNanoAgent",
+    "ExecutionMode",
+    "AgentCheckpointManager",
+    "SwarmMeshNetwork",
+    "TensorWormholeBridge",
+    "AsyncSovereignClient",
+    "SovereignSDK"
+]
