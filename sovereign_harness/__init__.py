@@ -19,6 +19,12 @@ from sovereign_harness.runtime import (
 )
 from sovereign_harness.ghost_bridge import GhostContextVault, ContextChunker
 from sovereign_harness.sdk import AsyncSovereignClient, SovereignSDK
+from sovereign_harness.super_intelligence import (
+    SuperIntelligencePipeline,
+    CognitiveTelepathyRelay,
+    SelfHealingASTRuntime,
+    HolographicProjectionEngine
+)
 
 __version__ = "1.0.0"
 __all__ = [
@@ -38,5 +44,9 @@ __all__ = [
     "GhostContextVault",
     "ContextChunker",
     "AsyncSovereignClient",
-    "SovereignSDK"
+    "SovereignSDK",
+    "SuperIntelligencePipeline",
+    "CognitiveTelepathyRelay",
+    "SelfHealingASTRuntime",
+    "HolographicProjectionEngine"
 ]
