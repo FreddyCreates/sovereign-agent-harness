@@ -17,6 +17,7 @@ from sovereign_harness.runtime import (
     SwarmMeshNetwork,
     TensorWormholeBridge
 )
+from sovereign_harness.ghost_bridge import GhostContextVault, ContextChunker
 from sovereign_harness.sdk import AsyncSovereignClient, SovereignSDK
 
 __version__ = "1.0.0"
@@ -34,6 +35,8 @@ __all__ = [
     "AgentCheckpointManager",
     "SwarmMeshNetwork",
     "TensorWormholeBridge",
+    "GhostContextVault",
+    "ContextChunker",
     "AsyncSovereignClient",
     "SovereignSDK"
 ]
