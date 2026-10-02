@@ -53,6 +53,9 @@ class ToolRegistry:
             })
         return schemas
 
+    def get_tool_schemas(self) -> List[Dict[str, Any]]:
+        return self.list_schemas()
+
     def execute_tool(self, name: str, kwargs: Dict[str, Any]) -> str:
         t = self.get_tool(name)
         if not t:

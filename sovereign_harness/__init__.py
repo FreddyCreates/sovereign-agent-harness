@@ -18,6 +18,13 @@ from sovereign_harness.runtime import (
     TensorWormholeBridge
 )
 from sovereign_harness.ghost_bridge import GhostContextVault, ContextChunker
+from sovereign_harness.qwen_bridge import (
+    QwenModelConfig,
+    QwenPromptFormatter,
+    QwenToolCallParser,
+    QwenModelBridge,
+    QwenSovereignHarness
+)
 from sovereign_harness.sdk import AsyncSovereignClient, SovereignSDK
 from sovereign_harness.super_intelligence import (
     SuperIntelligencePipeline,
@@ -43,6 +50,11 @@ __all__ = [
     "TensorWormholeBridge",
     "GhostContextVault",
     "ContextChunker",
+    "QwenModelConfig",
+    "QwenPromptFormatter",
+    "QwenToolCallParser",
+    "QwenModelBridge",
+    "QwenSovereignHarness",
     "AsyncSovereignClient",
     "SovereignSDK",
     "SuperIntelligencePipeline",
